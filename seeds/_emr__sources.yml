@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: emr
+    database: raw
+    schema: emr
+    tables:
+      - name: encounters
+        description: EMR encounters. One row per patient encounter.
+      - name: procedures
+        description: EMR procedures. One or more rows per encounter with CPT and wRVU.
+      - name: clinicians
+        description: EMR clinician reference data.

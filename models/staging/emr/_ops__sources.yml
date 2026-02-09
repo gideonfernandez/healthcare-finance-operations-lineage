@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ops
+    database: raw
+    schema: ops
+    tables:
+      - name: facility_costs
+        description: Monthly facility operating costs.
