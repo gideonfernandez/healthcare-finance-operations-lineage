@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: billing
+    database: raw
+    schema: billing
+    tables:
+      - name: claims
+        description: Billing claims. One row per encounter claim submission.
+      - name: payments
+        description: Billing payments. One row per claim payment event.
